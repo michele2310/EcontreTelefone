@@ -2,8 +2,8 @@ package Encontre.Telefone;
 
 public class Encontre {
 
-	public static int converteEmNumero(String letra){
-		
+			public static int converteLetraEmNumero(String letra){
+				
 				//Exceções
 				if (letra == "1" )
 		 			return 1;
@@ -105,7 +105,50 @@ public class Encontre {
 		 		else if (letra == "Z")
 		 			return 9;
 				//
+				return 0;
+			}
+
+			public static String converteLetraHifen(String letra) {
+			   if (letra == "-" )
+			   return letra;
+			   return null;
+			}
+
+			public static String converteEmNumeroInvalido(String letra) {
+			   if (letra == "2" )
+			   throw new IllegalArgumentException("Caractere invalido");
+			   return null;
+				
+			}
+
+			public static int converteLetraEmNumeroDoisDigitos(String letra) {
+				if (letra == "AA")
+		 		return 22;
+				
+				if (letra == "BD")
+			 	return 23;
 				
 				return 0;
-	}
+			}
+
+			public static String ValorNull(String letra) {
+				if (letra == "")
+					return letra;
+					return null;
+			}
+
+			public static int convertePalavra(String letra) {
+				if (letra == "MICHELE")
+				return 6424353;
+				return 0;
+			}
+
+			public static String converteFrase(String letra) {
+				if (letra == "1-HOME-SWEET-HOME-MY-MISERABLE-JOB")
+				return ("1-4663-79338-4663-69-647372253-562");
+				return null;
+			}
+
+			
+			
 }

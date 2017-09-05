@@ -8,169 +8,215 @@ public class EncontreTeste {
 	
 		@Test
 		 public void testConverteLetra1(){
-		 int valor = Encontre.converteEmNumero("1");
-		 assertEquals(1,valor);
+		 int numeros = Encontre.converteLetraEmNumero("1");
+		 assertEquals(1,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetra0(){
-		 int valor = Encontre.converteEmNumero("0");
-		 assertEquals(0,valor);
+		 int numeros = Encontre.converteLetraEmNumero("0");
+		 assertEquals(0,numeros);
+		 }
+		
+		@Test
+		 public void testConverteLetraHifen(){
+		 String Hifen = Encontre.converteLetraHifen("-");
+		 assertEquals("-",Hifen);
 		 }
 
 		@Test
 		 public void testConverteLetraA(){
-		 int valor = Encontre.converteEmNumero("A");
-		 assertEquals(2,valor);
+		 int numeros = Encontre.converteLetraEmNumero("A");
+		 assertEquals(2,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraB(){
-		 int valor = Encontre.converteEmNumero("B");
-		 assertEquals(2,valor);
+		 int numeros = Encontre.converteLetraEmNumero("B");
+		 assertEquals(2,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraC(){
-		 int valor = Encontre.converteEmNumero("C");
-		 assertEquals(2,valor);
+		 int numeros = Encontre.converteLetraEmNumero("C");
+		 assertEquals(2,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraD(){
-		 int valor = Encontre.converteEmNumero("D");
-		 assertEquals(3,valor);
+		 int numeros = Encontre.converteLetraEmNumero("D");
+		 assertEquals(3,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraE(){
-		 int valor = Encontre.converteEmNumero("E");
-		 assertEquals(3,valor);
+		 int numeros = Encontre.converteLetraEmNumero("E");
+		 assertEquals(3,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraF(){
-		 int valor = Encontre.converteEmNumero("F");
-		 assertEquals(3,valor);
+		 int numeros = Encontre.converteLetraEmNumero("F");
+		 assertEquals(3,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraG(){
-		 int valor = Encontre.converteEmNumero("G");
-		 assertEquals(4,valor);
+		 int numeros = Encontre.converteLetraEmNumero("G");
+		 assertEquals(4,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraH(){
-		 int valor = Encontre.converteEmNumero("H");
-		 assertEquals(4,valor);
+		 int numeros = Encontre.converteLetraEmNumero("H");
+		 assertEquals(4,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraI(){
-		 int valor = Encontre.converteEmNumero("I");
-		 assertEquals(4,valor);
+		 int numeros = Encontre.converteLetraEmNumero("I");
+		 assertEquals(4,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraJ(){
-		 int valor = Encontre.converteEmNumero("J");
-		 assertEquals(5,valor);
+		 int numeros = Encontre.converteLetraEmNumero("J");
+		 assertEquals(5,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraK(){
-		 int valor = Encontre.converteEmNumero("K");
-		 assertEquals(5,valor);
+		 int numeros = Encontre.converteLetraEmNumero("K");
+		 assertEquals(5,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraL(){
-		 int valor = Encontre.converteEmNumero("L");
-		 assertEquals(5,valor);
+		 int numeros = Encontre.converteLetraEmNumero("L");
+		 assertEquals(5,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraM(){
-		 int valor = Encontre.converteEmNumero("M");
-		 assertEquals(6,valor);
+		 int numeros = Encontre.converteLetraEmNumero("M");
+		 assertEquals(6,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraN(){
-		 int valor = Encontre.converteEmNumero("N");
-		 assertEquals(6,valor);
+		 int numeros = Encontre.converteLetraEmNumero("N");
+		 assertEquals(6,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraO(){
-		 int valor = Encontre.converteEmNumero("O");
-		 assertEquals(6,valor);
+		 int numeros = Encontre.converteLetraEmNumero("O");
+		 assertEquals(6,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraP(){
-		 int valor = Encontre.converteEmNumero("P");
-		 assertEquals(7,valor);
+		 int numeros = Encontre.converteLetraEmNumero("P");
+		 assertEquals(7,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraQ(){
-		 int valor = Encontre.converteEmNumero("Q");
-		 assertEquals(7,valor);
+		 int numeros = Encontre.converteLetraEmNumero("Q");
+		 assertEquals(7,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraR(){
-		 int valor = Encontre.converteEmNumero("R");
-		 assertEquals(7,valor);
+		 int numeros = Encontre.converteLetraEmNumero("R");
+		 assertEquals(7,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraS(){
-		 int valor = Encontre.converteEmNumero("S");
-		 assertEquals(7,valor);
+		 int numeros = Encontre.converteLetraEmNumero("S");
+		 assertEquals(7,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraT(){
-		 int valor = Encontre.converteEmNumero("T");
-		 assertEquals(8,valor);
+		 int numeros = Encontre.converteLetraEmNumero("T");
+		 assertEquals(8,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraU(){
-		 int valor = Encontre.converteEmNumero("U");
-		 assertEquals(8,valor);
+		 int numeros = Encontre.converteLetraEmNumero("U");
+		 assertEquals(8,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraV(){
-		 int valor = Encontre.converteEmNumero("V");
-		 assertEquals(8,valor);
+		 int numeros = Encontre.converteLetraEmNumero("V");
+		 assertEquals(8,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraW(){
-		 int valor = Encontre.converteEmNumero("W");
-		 assertEquals(9,valor);
+		 int numeros = Encontre.converteLetraEmNumero("W");
+		 assertEquals(9,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraX(){
-		 int valor = Encontre.converteEmNumero("X");
-		 assertEquals(9,valor);
+		 int numeros = Encontre.converteLetraEmNumero("X");
+		 assertEquals(9,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraY(){
-		 int valor = Encontre.converteEmNumero("Y");
-		 assertEquals(9,valor);
+		 int numeros = Encontre.converteLetraEmNumero("Y");
+		 assertEquals(9,numeros);
 		 }
 		
 		@Test
 		 public void testConverteLetraZ(){
-		 int valor = Encontre.converteEmNumero("Z");
-		 assertEquals(9,valor);
+		 int numeros = Encontre.converteLetraEmNumero("Z");
+		 assertEquals(9,numeros);
 		 }
+		
+		 @Test(expected = IllegalArgumentException.class)
+		 public void testConverteEmNumeroInvalido(){
+		 String letra = Encontre.converteEmNumeroInvalido("2");
+		 }
+		 
+		 @Test
+		 public void testConverteLetraAA(){
+		 int numeros = Encontre.converteLetraEmNumeroDoisDigitos("AA");
+		 assertEquals(22,numeros);
+		 }
+		 
+		 @Test
+		 public void testConverteLetraBD(){
+		 int numeros = Encontre.converteLetraEmNumeroDoisDigitos("BD");
+		 assertEquals(23,numeros);
+		 }
+		 
+		 @Test
+		 public void testValorNull(){
+		 String letra = Encontre.ValorNull("");
+		 assertEquals("", letra);
+		 }
+		 
+		 @Test
+		 public void testConvertePalavraMICHELE(){
+		 int numeros = Encontre.convertePalavra("MICHELE");
+		 assertEquals(6424353, numeros);
+		 }
+		 
+		 @Test
+		 public void testConverteFrase(){
+		 String letra = Encontre.converteFrase("1-HOME-SWEET-HOME-MY-MISERABLE-JOB");
+		 assertEquals(1-4663-79338-4663-69-647372253-562, letra);
+		 }
+		 
+		 
+		 
 }
+		
+
